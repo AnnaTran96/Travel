@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link href="style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
 </head>
@@ -17,6 +18,16 @@
                 <hr>
             </ul>
         </nav> 
+
+        <div class="video-background">
+            <h1 class="blink">My Travelling journey<div class="blink"></div></h1>
+            <div class="video-container">
+                <div class="colour-overlay"></div>
+                     <video autoplay loop muted> <!-- make sure to include "muted" because if the video has sound, autoplay won't work. If you add another code "poster" within <video> this creates a thumbnail of that video but in this case, we don't want a thumbnail -->
+                     <source src="Video/Portsmouth.mp4" type="video/mp4"> <!-- great practice to add more than one source incase other file type is not supported - can add several sources to include this type-->
+                     </video>
+            </div>
+        </div>
 
     </div>
 
