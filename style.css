@@ -1,0 +1,52 @@
+.container{
+  width: 100%;
+  margin: 0;
+  background-color: white;
+}
+
+.navigation-bar{
+  background-color: rgba(62, 65, 64, 0.377);
+  margin: 0;
+}
+
+.navigation-bar ul{
+  text-align:right;
+  margin: 0;
+}
+
+.navigation-bar li{
+  display: inline;
+  padding-right: 55px;
+  word-spacing: 3px;
+  font: 25px Shadows into light two;
+  color: white;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+hr{
+  height: 5px;
+  width: 150px;
+  margin: 0;
+  margin-left: 845px;
+  background: rgb(255, 255, 255);
+  border: none;
+  transition: .2s ease-in-out;
+}
+
+a:hover{
+  /*color: #a3a3c2;*/
+  font-weight: bold;
+}
+
+.countries:hover ~ hr{
+  margin-left: 1070px;
+}
+
+.gallery:hover ~ hr{
+  margin-left: 1280px;
+}
