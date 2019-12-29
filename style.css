@@ -127,3 +127,299 @@ a:hover{
     }
   }
   
+
+  p {
+    margin-left: 35px;
+    width: 55%;
+    text-align: center;
+    padding: 70px;
+    font: 18px shadows into light two;
+    color: #666666;
+    border: 2px solid #cccccc;
+    background-color: white;
+  }
+  
+  .section-container {
+    position: relative;
+    padding: 30px;
+    overflow: hidden;
+    margin-bottom: 200px;
+  }
+  
+  section img {
+    width: 100%;
+  }
+  
+  .column-img {
+    width: 22%;
+    margin-left: 250px;
+    margin-top: 200px;
+    border: 3px solid #bfbfbf;
+    padding: 6px;
+    position: relative;
+    background: white;
+  }
+  
+  .column-text {
+    width: 78%;
+    margin-left: 480px;
+    margin-top: -300px;
+  }
+  
+  h3 {
+    font: 44px shadows into light two;
+    text-align: center;
+    color: #737373;
+    text-transform: uppercase;
+    background-color: rgba(179, 179, 179, 0.4);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .row:after {
+  display: inline-block;
+  content: "";
+  clear: both;
+  }
+  
+  .destination-columns {
+  float: left;
+  width: 20%;
+  margin-top: 50px;
+  padding: 0;
+  }
+  
+  .destination-columns img {
+    width: 100%;
+  }
+  
+  .center {
+    width: 60%;
+    margin-left: 300px;
+    margin-top: 150px;
+    opacity: 0.5;
+  }
+  
+  .icons {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  }
+  
+  .icon-china {
+    width: 12px;
+    position: absolute;
+    bottom: 345px;
+    left: 990px;
+    display: block;
+  }
+  
+  .icon-china:hover {
+    content: url("https://i.ibb.co/jJz6Mbn/IMG-9063.jpg");
+    width: 200px;
+  }
+  
+  .icon-spain {
+    width: 12px;
+    position: absolute;
+    bottom: 335px;
+    left: 690px;
+  }
+  
+  .icon-spain:hover {
+    content: url("https://i.ibb.co/thvWRcr/Screenshot-2019-12-29-at-20-50-17.png");
+    width: 15%;
+  }
+  
+  .icon-france {
+    width: 12px;
+    position: absolute;
+    bottom: 345px;
+    left: 710px;
+  }
+  
+  .icon-france:hover {
+    content: url("https://i.ibb.co/QPNT4gF/img-6240.jpg");
+    width: 15%;
+  }
+  
+  .icon-germany {
+    width: 12px;
+    position: absolute;
+    bottom: 355px;
+    left: 720px;
+  }
+  
+  .icon-germany:hover {
+    content: url("https://i.ibb.co/4ZqkS73/Screenshot-2019-12-29-at-20-50-02.png");
+    width: 15%;
+  }
+  
+  .icon-poland {
+    width: 12px;
+    position: absolute;
+    bottom: 360px;
+    left: 730px;
+  }
+  
+  .icon-poland:hover {
+    content: url("https://i.ibb.co/TLdbbFQ/75398194-713553479126585-2217559196235202560-o.jpg");
+    width: 15%;
+  }
+  
+  .icon-italy {
+    width: 12px;
+    position: absolute;
+    bottom: 333px;
+    left: 738px;
+  }
+  
+  .icon-italy:hover {
+    content: url("https://i.ibb.co/jJz6Mbn/IMG-9063.jpg");
+    width: 15%;
+  }
+  
+  .icon-sweden {
+    width: 12px;
+    position: absolute;
+    bottom: 400px;
+    left: 735px;
+  }
+  
+  .icon-sweden:hover {
+    content: url("https://i.ibb.co/jJz6Mbn/IMG-9063.jpg");
+    width: 15%;
+  }
+  
+  .icon-netherlands {
+    width: 12px;
+    position: absolute;
+    bottom: 370px;
+    left: 717px;
+  }
+  
+  .icon-netherlands:hover {
+    content: url("https://i.ibb.co/2vY7mSq/Screenshot-2019-12-29-at-20-49-10.png");
+    width: 15%;
+  }
+  
+  .icon-greece {
+    width: 12px;
+    position: absolute;
+    bottom: 330px;
+    left: 755px;
+  }
+  
+  .icon-greece:hover {
+    content: url("https://i.ibb.co/f2KKg21/Screenshot-2019-12-29-at-20-49-33.png");
+    width: 15%;
+  }
+  
+  .icon-belgium {
+    width: 12px;
+    position: absolute;
+    bottom: 363px;
+    left: 710px;
+  }
+  
+  .icon-belgium:hover {
+    content: url("https://i.ibb.co/7yxxsLz/Screenshot-2019-12-29-at-20-48-28.png");
+    width: 15%;
+  }
+  
+  .icon-denmark {
+    width: 12px;
+    position: absolute;
+    bottom: 376px;
+    left: 724px;
+  }
+  
+  .icon-denmark:hover {
+    content: url("https://i.ibb.co/8jpCJ3x/Screenshot-2019-12-29-at-20-49-22.png");
+    width: 15%;
+  }
+  
+  .icon-finland {
+    width: 12px;
+    position: absolute;
+    bottom: 405px;
+    left: 758px;
+  }
+  
+  .icon-finland:hover {
+    content: url("https://i.ibb.co/P5CDwHT/Screenshot-2019-12-29-at-20-47-38.png");
+    width: 15%;
+  }
+  
+  .icon-hungary {
+    width: 12px;
+    position: absolute;
+    bottom: 347px;
+    left: 730px;
+  }
+  
+  .icon-hungary:hover {
+    content: url("https://i.ibb.co/jGRQDKk/Screenshot-2019-12-29-at-20-46-45.png");
+    width: 15%;
+  }
+  
+  .icon-czech-republic {
+    width: 12px;
+    position: absolute;
+    bottom: 345px;
+    left: 720px;
+  }
+  
+  .icon-czech-republic:hover {
+    content: url("https://i.ibb.co/yPW61GZ/Screenshot-2019-12-29-at-20-47-16.png");
+    width: 15%;
+  }
+  
+  .icon-norway {
+    width: 12px;
+    position: absolute;
+    bottom: 412px;
+    left: 730px;
+  }
+  
+  .icon-norway:hover {
+    content: url("https://i.ibb.co/CndxHCK/67105219-634554613693139-4703368018120409088-o.jpg");
+    width: 15%;
+  }
+  
+  .icon-thailand {
+    width: 12px;
+    position: absolute;
+    bottom: 322px;
+    left: 987px;
+  }
+  
+  .icon-thailand:hover {
+    content: url("https://i.ibb.co/BGrC3GY/Screenshot-2019-12-29-at-20-48-49.png");
+    width: 15%;
+  }
+  
+  .icon-hong-kong {
+    width: 12px;
+    position: absolute;
+    bottom: 335px;
+    left: 980px;
+  }
+  
+  .icon-hong-kong:hover {
+    content: url("https://i.ibb.co/2dkQftQ/Screenshot-2019-12-29-at-20-50-25.png");
+    width: 15%;
+  }
+  
+  .icon-korea {
+    width: 12px;
+    position: absolute;
+    bottom: 325px;
+    left: 992px;
+  }
+  
+  .icon-korea:hover {
+    content: url("https://i.ibb.co/PWHX9nt/Screenshot-2019-12-29-at-20-48-04.png");
+    width: 15%;
+  }
+  
