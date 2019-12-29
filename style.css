@@ -422,4 +422,54 @@ a:hover{
     content: url("https://i.ibb.co/PWHX9nt/Screenshot-2019-12-29-at-20-48-04.png");
     width: 15%;
   }
+
+  .carousel-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 100px;
+    position: relative;
+    overflow: hidden;
+  }
   
+  .image-slideshow img {
+      width: 100%;
+  }
+
+  .image-slideshow {
+    display: flex;
+    align-items: center;
+  }
+
+  .transition-effect {
+      animation-name: fade;
+      animation-duration: 1s;
+  }
+
+  @keyframes fade {
+      from {
+          opacity: 0.5;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+
+  #prevbutton {
+    position: absolute;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    top: 50%;
+    left: 15%;
+    transition: .0.4 ease-in-out;
+  }
+  
+  #nextbutton {
+    position: absolute;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    top: 50%;
+    left: 95%;
+    transition: .0.4 ease-in-out;
+  }
