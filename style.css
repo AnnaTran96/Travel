@@ -32,7 +32,7 @@ hr{
   height: 5px;
   width: 150px;
   margin: 0;
-  margin-left: 845px;
+  margin-left: 825px;
   background: rgb(255, 255, 255);
   border: none;
   transition: .2s ease-in-out;
@@ -44,11 +44,11 @@ a:hover{
 }
 
 .countries:hover ~ hr{
-  margin-left: 1070px;
+  margin-left: 1050px;
 }
 
-.gallery:hover ~ hr{
-  margin-left: 1280px;
+.bucketlist:hover ~ hr{
+  margin-left: 1270px;
 }
 
 
@@ -107,9 +107,6 @@ a:hover{
     }
   }
   
-  
-  
-  
   .blink { 
     
     border-right: 4px solid white;
@@ -127,18 +124,32 @@ a:hover{
     }
   }
   
+  h2 {
+    position: absolute;
+    bottom: 530px;
+    right: 430px;
+    text-align: center;
+    font: 34px shadows into light two;
+    color: #666666;
+    text-transform: uppercase;
+    background-color: white;
+  }
 
   p {
     margin-left: 35px;
     width: 55%;
     text-align: center;
     padding: 70px;
-    font: 18px shadows into light two;
+    font: 19px shadows into light two;
     color: #666666;
     border: 2px solid #cccccc;
     background-color: white;
   }
   
+  .purpleText {
+    color: #6600cc;
+  }
+
   .section-container {
     position: relative;
     padding: 30px;
@@ -176,271 +187,480 @@ a:hover{
     padding-bottom: 30px;
   }
   
-  .row:after {
-  display: inline-block;
-  content: "";
-  clear: both;
-  }
-  
-  .destination-columns {
-  float: left;
-  width: 20%;
-  margin-top: 50px;
-  padding: 0;
-  }
-  
-  .destination-columns img {
+.images-left {
+  position: absolute;
+  opacity: 0.1;
+  filter: blur(1px);
+  width: 200px;
+}
+
+.middle-left {
+  position: absolute;
+  opacity: 0.1;
+  filter: blur(1px);
+  width: 200px;
+}
+
+.images-right {
+  position: absolute;
+  opacity: 0.1;
+  filter: blur(1px);
+  width: 200px;
+}
+
+.edge-right {
+  position: absolute;
+  opacity: 0.1;
+  filter: blur(1px);
+  width: 200px;
+}
+
+.middle-image {
+  position: absolute;
+  opacity: 0.1;
+  filter: blur(1px);
+  width: 580px;
+}
+
+.paris {
+  margin-top: -21px;
+  margin-left: 10px;
+}
+
+.changmai {
+  margin-top: -800px;
+  margin-left: 220px;
+}
+
+.seoul {
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.sun {
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.left1 {
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.left2 {
+  margin-top: 5px;
+  margin-left: 10px;
+  height: 234px;
+}
+
+.belfast {
+  margin-top: -280px;
+  margin-left: 220px;
+}
+
+.oxford {
+  margin-top: -255px;
+  margin-left: 220px;
+}
+
+.m1 {
+  margin-top: 890px;
+  margin-left: 220px;
+}
+
+.m2 {
+  margin-top: 5px;
+  margin-left: 220px;
+  height: 150px;
+}
+
+
+.adidas {
+  margin-top: -5px;
+  margin-left: 1020px;
+}
+
+.grad {
+  margin-top: 5px;
+  margin-left: 1020px;
+}
+
+.waterfall {
+  margin-top: 5px;
+  margin-left: 1020px;
+}
+
+.right1 {
+  margin-top: 5px;
+  margin-left: 1020px;
+}
+
+.right2 {
+  margin-top: 5px;
+  margin-left: 1020px;
+  height: 221px;
+}
+
+.baguette {
+  margin-top: -16px;
+  margin-left: 1230px;
+}
+
+.molly {
+  margin-top: 5px;
+  margin-left: 1230px;
+}
+
+.fcity {
+  margin-top: 5px;
+  margin-left: 1230px;
+}
+
+.edge1 {
+  margin-top: 5px;
+  margin-left: 1230px;
+}
+
+.edge2 {
+  margin-top: 5px;
+  margin-left: 1230px;
+  height: 232px;
+}
+
+.summer-palace {
+  margin-top: -16px;
+  margin-left: 430px;
+}
+
+.wall {
+  margin-top: -160px;
+  margin-left: 430px;
+}
+
+.wall2 {
+  margin-top: 10px;
+  margin-left: 430px;
+}
+
+.jelly {
+  margin-top: 5px;
+  margin-left: 430px;
+  height: 161px;
+}
+
+  .slider {
+    max-width: 650px;
+    border: 10px solid white;
+    margin: 60px auto;
+    position: relative;
+    top: 70px;
+    border: 3px solid #c2c2c2;
+    padding: 5px;
+}
+
+
+.slider .slider-items .items img {
+    display: block;
+    max-width: 100%;
+}
+
+.slider .slider-items .items {
+    display: none;
+    position: relative;
+}
+
+.caption {
+    position: absolute;
     width: 100%;
-  }
+    font: 20px arial;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px 0px 5px 0px;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 1px;
+    line-height: 35px;
+}
+
+.slider .slider-items .items.active {
+    display: block;
+}
+
+.leftButton {
+    position: absolute;
+    font: 40px arial;
+    /* font-weight: bold; */
+    color: white;
+    bottom: 200px;
+    left: 20px;
+    background-color: rgba(0,0,0,0.5);
+    /* border-radius: 50%; */
+    padding: 10px;
+    line-height: 30px;
+    cursor: pointer;
+    transition: .0.5s ease-in-out;
+}
+
+.rightButton {
+    position: absolute;
+    font: 40px arial;
+    /* font-weight: bold; */
+    color: white;
+    bottom: 200px;
+    right: 20px;
+    background-color: rgba(0,0,0,0.5);
+    /* border-radius: 50%; */
+    padding: 10px;
+    line-height: 30px;
+    cursor: pointer;
+    transition: .0.5s ease-in-out;
+    /* animation-name: fade;
+    animation-duration: 1s; */
+}
+
+.leftButton:hover {
+  background-color: rgba(15, 235, 180, 0.658);
+  box-shadow: 0px 0px 10px black;
+}
+
+.rightButton:hover {
+  background-color: rgba(15, 235, 180, 0.658);
+  box-shadow: 0px 0px 10px black;
+}
+
+.center {
+  width: 60%;
+  margin-left: 300px;
+  margin-top: 70px;
+  /* opacity: 0.5; */
+}
   
-  .center {
-    width: 60%;
-    margin-left: 300px;
-    margin-top: 150px;
-    opacity: 0.5;
-  }
-  
-  .icons {
+.icons {
   width: 100%;
   z-index: 1;
   position: relative;
-  }
+}
   
-  .icon-china {
+.icon-china {
     width: 12px;
     position: absolute;
     bottom: 345px;
     left: 990px;
     display: block;
-  }
+}
   
-  .icon-china:hover {
+.icon-china:hover {
     content: url("https://i.ibb.co/jJz6Mbn/IMG-9063.jpg");
     width: 200px;
-  }
+}
   
-  .icon-spain {
+.icon-spain {
     width: 12px;
     position: absolute;
     bottom: 335px;
     left: 690px;
-  }
+}
   
-  .icon-spain:hover {
+.icon-spain:hover {
     content: url("https://i.ibb.co/thvWRcr/Screenshot-2019-12-29-at-20-50-17.png");
     width: 15%;
-  }
+}
   
-  .icon-france {
+.icon-france {
     width: 12px;
     position: absolute;
     bottom: 345px;
     left: 710px;
-  }
+}
   
-  .icon-france:hover {
+.icon-france:hover {
     content: url("https://i.ibb.co/QPNT4gF/img-6240.jpg");
     width: 15%;
-  }
+}
   
-  .icon-germany {
+.icon-germany {
     width: 12px;
     position: absolute;
     bottom: 355px;
     left: 720px;
-  }
+}
   
-  .icon-germany:hover {
+.icon-germany:hover {
     content: url("https://i.ibb.co/4ZqkS73/Screenshot-2019-12-29-at-20-50-02.png");
     width: 15%;
-  }
+}
   
-  .icon-poland {
+.icon-poland {
     width: 12px;
     position: absolute;
     bottom: 360px;
     left: 730px;
-  }
+}
   
-  .icon-poland:hover {
+.icon-poland:hover {
     content: url("https://i.ibb.co/TLdbbFQ/75398194-713553479126585-2217559196235202560-o.jpg");
     width: 15%;
-  }
+}
   
-  .icon-italy {
+.icon-italy {
     width: 12px;
     position: absolute;
     bottom: 333px;
     left: 738px;
-  }
+}
   
-  .icon-italy:hover {
+.icon-italy:hover {
     content: url("https://i.ibb.co/jJz6Mbn/IMG-9063.jpg");
     width: 15%;
-  }
+}
   
-  .icon-sweden {
+.icon-sweden {
     width: 12px;
     position: absolute;
     bottom: 400px;
     left: 735px;
-  }
+}
   
-  .icon-sweden:hover {
+.icon-sweden:hover {
     content: url("https://i.ibb.co/jJz6Mbn/IMG-9063.jpg");
     width: 15%;
-  }
+}
   
-  .icon-netherlands {
+.icon-netherlands {
     width: 12px;
     position: absolute;
     bottom: 370px;
     left: 717px;
-  }
+}
   
-  .icon-netherlands:hover {
+.icon-netherlands:hover {
     content: url("https://i.ibb.co/2vY7mSq/Screenshot-2019-12-29-at-20-49-10.png");
     width: 15%;
-  }
+}
   
-  .icon-greece {
+.icon-greece {
     width: 12px;
     position: absolute;
     bottom: 330px;
     left: 755px;
-  }
+}
   
-  .icon-greece:hover {
+.icon-greece:hover {
     content: url("https://i.ibb.co/f2KKg21/Screenshot-2019-12-29-at-20-49-33.png");
     width: 15%;
-  }
+}
   
-  .icon-belgium {
+.icon-belgium {
     width: 12px;
     position: absolute;
     bottom: 363px;
     left: 710px;
-  }
+}
   
-  .icon-belgium:hover {
+.icon-belgium:hover {
     content: url("https://i.ibb.co/7yxxsLz/Screenshot-2019-12-29-at-20-48-28.png");
     width: 15%;
-  }
+}
   
-  .icon-denmark {
+.icon-denmark {
     width: 12px;
     position: absolute;
     bottom: 376px;
     left: 724px;
-  }
+}
   
-  .icon-denmark:hover {
+.icon-denmark:hover {
     content: url("https://i.ibb.co/8jpCJ3x/Screenshot-2019-12-29-at-20-49-22.png");
     width: 15%;
-  }
+}
   
-  .icon-finland {
+.icon-finland {
     width: 12px;
     position: absolute;
     bottom: 405px;
     left: 758px;
-  }
+}
   
-  .icon-finland:hover {
+.icon-finland:hover {
     content: url("https://i.ibb.co/P5CDwHT/Screenshot-2019-12-29-at-20-47-38.png");
     width: 15%;
-  }
+}
   
-  .icon-hungary {
+.icon-hungary {
     width: 12px;
     position: absolute;
     bottom: 347px;
     left: 730px;
-  }
+}
   
-  .icon-hungary:hover {
+.icon-hungary:hover {
     content: url("https://i.ibb.co/jGRQDKk/Screenshot-2019-12-29-at-20-46-45.png");
     width: 15%;
-  }
+}
   
-  .icon-czech-republic {
+.icon-czech-republic {
     width: 12px;
     position: absolute;
     bottom: 345px;
     left: 720px;
-  }
+}
   
-  .icon-czech-republic:hover {
+.icon-czech-republic:hover {
     content: url("https://i.ibb.co/yPW61GZ/Screenshot-2019-12-29-at-20-47-16.png");
     width: 15%;
-  }
+}
   
-  .icon-norway {
+.icon-norway {
     width: 12px;
     position: absolute;
     bottom: 412px;
     left: 730px;
-  }
+}
   
-  .icon-norway:hover {
+.icon-norway:hover {
     content: url("https://i.ibb.co/CndxHCK/67105219-634554613693139-4703368018120409088-o.jpg");
+    /* border-radius: 50%; */
     width: 15%;
-  }
+}
   
-  .icon-thailand {
+.icon-thailand {
     width: 12px;
     position: absolute;
     bottom: 322px;
     left: 987px;
-  }
+}
   
-  .icon-thailand:hover {
+.icon-thailand:hover {
     content: url("https://i.ibb.co/BGrC3GY/Screenshot-2019-12-29-at-20-48-49.png");
     width: 15%;
-  }
+}
   
-  .icon-hong-kong {
+.icon-hong-kong {
     width: 12px;
     position: absolute;
     bottom: 335px;
     left: 980px;
-  }
+}
   
-  .icon-hong-kong:hover {
+.icon-hong-kong:hover {
     content: url("https://i.ibb.co/2dkQftQ/Screenshot-2019-12-29-at-20-50-25.png");
     width: 15%;
-  }
+}
   
-  .icon-korea {
+.icon-korea {
     width: 12px;
     position: absolute;
     bottom: 325px;
     left: 992px;
-  }
+}
   
-  .icon-korea:hover {
+.icon-korea:hover {
     content: url("https://i.ibb.co/PWHX9nt/Screenshot-2019-12-29-at-20-48-04.png");
     width: 15%;
-  }
+}
 
-  .carousel-container {
-    width: 50%;
-    margin: 0 auto;
-    padding: 100px;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .image-slideshow img {
-      width: 100%;
-  }
 
-  .image-slideshow {
-    display: flex;
-    align-items: center;
-  }
-
-  .transition-effect {
+  /* .transition-effect {
       animation-name: fade;
       animation-duration: 1s;
   }
@@ -452,24 +672,21 @@ a:hover{
       to {
           opacity: 1;
       }
+  } */
+
+.bucketlist-container {
+  background-color: white;
+}
+
+  h4 {
+    font: 44px shadows into light two;
+    text-align: center;
+    color: #737373;
+    text-transform: uppercase;
+    background-color: rgba(179, 179, 179, 0.4);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
   }
 
-  #prevbutton {
-    position: absolute;
-    cursor: pointer;
-    font-size: 30px;
-    color: white;
-    top: 50%;
-    left: 15%;
-    transition: .0.4 ease-in-out;
-  }
   
-  #nextbutton {
-    position: absolute;
-    cursor: pointer;
-    font-size: 30px;
-    color: white;
-    top: 50%;
-    left: 95%;
-    transition: .0.4 ease-in-out;
-  }
