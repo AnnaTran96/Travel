@@ -252,7 +252,14 @@ h3 {
 .flowers {
 	margin-top: 5px;
 	margin-left: 10px;
-	height: 234px;
+}
+.churros {
+	margin-top: -5px;
+	margin-left: 10px;
+	object-fit: cover;
+	object-position: 20% 10px;
+	width: 200px;
+	height: 147px;
 }
 .belfast {
 	margin-top: -280px;
@@ -263,13 +270,20 @@ h3 {
 	margin-left: 220px;
 }
 .church {
-	margin-top: 890px;
+	margin-top: 822px;
 	margin-left: 220px;
 }
 .horse {
 	margin-top: 5px;
 	margin-left: 220px;
-	height: 150px;
+}
+.tree-fr {
+	margin-top: -5px;
+	margin-left: 220px;
+	object-fit: cover;
+	object-position: 20% 10px;
+	width: 200px;
+	height: 131px;
 }
 .adidas {
 	margin-top: -5px;
@@ -290,7 +304,14 @@ h3 {
 .palace {
 	margin-top: 5px;
 	margin-left: 1020px;
-	height: 221px;
+}
+.fr {
+	margin-top: -5px;
+	margin-left: 1020px;
+	object-fit: cover;
+	object-position: 20% 10px;
+	width: 200px;
+	height: 134px;
 }
 .baguette {
 	margin-top: -16px;
@@ -311,7 +332,14 @@ h3 {
 .drink {
 	margin-top: 5px;
 	margin-left: 1230px;
-	height: 232px;
+}
+.spchina {
+	margin-top: -5px;
+	margin-left: 1230px;
+	object-fit: cover;
+	object-position: 20% 10px;
+	width: 200px;
+	height: 145px;
 }
 .summer-palace {
 	margin-top: -16px;
@@ -328,8 +356,15 @@ h3 {
 .jelly {
 	margin-top: 5px;
 	margin-left: 430px;
-	height: 161px;
 }
+/* .de {
+	margin-top: -5px;
+	margin-left: 430px;
+	object-fit: cover;
+	object-position: 20% 10px;
+	width: 580px;
+	height: 123px;
+} */
 .slider {
 	max-width: 650px;
 	border: 10px solid white;
@@ -402,10 +437,10 @@ h3 {
 	box-shadow: 0px 0px 10px black;
 }
 .center {
-	width: 60%;
-	margin-left: 300px;
-	margin-top: 70px;
-	/* opacity: 0.5; */
+	width: 85%;
+	margin-left: 130px;
+	margin-top: 50px;
+
 }
 .icons {
 	width: 100%;
@@ -413,186 +448,205 @@ h3 {
 	position: relative;
 }
 .icon-china {
-	width: 12px;
+	width: 22px;
 	position: absolute;
-	bottom: 345px;
-	left: 990px;
+	bottom: 405px;
+	left: 1000px;
 	display: block;
 }
 .icon-china:hover {
-	content: url("https://i.ibb.co/jJz6Mbn/IMG-9063.jpg");
-	width: 200px;
+	content: url("https://i.ibb.co/yg8L9VP/china.jpg");
+  	width: 200px;
+	transform: scale(1.2);
+	
 }
 .icon-spain {
-	width: 12px;
+	width: 22px;
 	position: absolute;
-	bottom: 335px;
-	left: 690px;
+	bottom: 435px;
+	left: 700px;
 }
 .icon-spain:hover {
-	content: url("https://i.ibb.co/thvWRcr/Screenshot-2019-12-29-at-20-50-17.png");
-	width: 15%;
+	content: url("https://i.ibb.co/WBCTdT8/Screenshot-2019-12-29-at-20-50-17.jpg");
+  	width: 15%;
+  	transform: scale(1.2);
 }
 .icon-france {
-	width: 12px;
+	width: 22px;
 	position: absolute;
-	bottom: 345px;
-	left: 710px;
+	bottom: 448px;
+	left: 715px;
 }
 .icon-france:hover {
-	content: url("https://i.ibb.co/0yHW5YF/photo-06-09-2018-19-37-44.jpg");
-	width: 15%;
+	content: url("https://i.ibb.co/Hg8m0zS/Screenshot-2019-12-31-at-15-41-16.jpg");
+  	width: 15%;
+  	transform: scale(1.2);
 }
 .icon-germany {
-	width: 12px;
+	width: 22px;
 	position: absolute;
-	bottom: 355px;
-	left: 720px;
+	bottom: 465px;
+	left: 725px;
 }
 .icon-germany:hover {
-	content: url("https://i.ibb.co/4ZqkS73/Screenshot-2019-12-29-at-20-50-02.png");
-	width: 15%;
+	content: url("https://i.ibb.co/mXG8c3j/Screenshot-2019-12-29-at-20-50-02.jpg");
+  	width: 15%;
+  	transform: scale(1.2);
 }
 .icon-poland {
-	width: 12px;
+	width: 22px;
 	position: absolute;
-	bottom: 360px;
-	left: 730px;
+	bottom: 470px;
+	left: 735px;
 }
 .icon-poland:hover {
-	content: url("https://i.ibb.co/TLdbbFQ/75398194-713553479126585-2217559196235202560-o.jpg");
-	width: 15%;
+	content: url("https://i.ibb.co/xHVQkSg/75398194-713553479126585-2217559196235202560-o.jpg");
+  width: 15%;
+  transform: scale(1.2);
 }
 .icon-italy {
-	width: 12px;
+	width: 22px;
 	position: absolute;
-	bottom: 333px;
-	left: 738px;
+	bottom: 443px;
+	left: 755px;
 }
 .icon-italy:hover {
-	content: url("https://i.ibb.co/QPNT4gF/img-6240.jpg");
-	width: 15%;
+	content: url("https://i.ibb.co/cYwGzH2/img-6240.jpg");
+  width: 15%;
+  transform: scale(1.2);
 }
 .icon-sweden {
-	width: 12px;
+	width: 22px;
 	position: absolute;
-	bottom: 400px;
+	bottom: 550px;
 	left: 735px;
 }
 .icon-sweden:hover {
-	content: url("https://i.ibb.co/jJz6Mbn/IMG-9063.jpg");
-	width: 15%;
+	content: url("https://i.ibb.co/jJz6Mbn/IMG-9063.jpg"); /*replace photo*/
+  width: 15%;
+  transform: scale(1.2);
 }
 .icon-netherlands {
-	width: 12px;
+	width: 22px;
 	position: absolute;
-	bottom: 370px;
-	left: 717px;
-}
-.icon-netherlands:hover {
-	content: url("https://i.ibb.co/2vY7mSq/Screenshot-2019-12-29-at-20-49-10.png");
-	width: 15%;
-}
-.icon-greece {
-	width: 12px;
-	position: absolute;
-	bottom: 330px;
-	left: 755px;
-}
-.icon-greece:hover {
-	content: url("https://i.ibb.co/f2KKg21/Screenshot-2019-12-29-at-20-49-33.png");
-	width: 15%;
-}
-.icon-belgium {
-	width: 12px;
-	position: absolute;
-	bottom: 363px;
+	bottom: 470px;
 	left: 710px;
 }
+.icon-netherlands:hover {
+	content: url("https://i.ibb.co/1bdkTmn/Screenshot-2019-12-29-at-20-49-10.jpg");
+  width: 15%;
+  transform: scale(1.2);
+}
+.icon-greece {
+	width: 22px;
+	position: absolute;
+	bottom: 435px;
+	left: 773px;
+}
+.icon-greece:hover {
+	content: url("https://i.ibb.co/M2SBYSB/Screenshot-2019-12-29-at-20-49-33.jpg");
+  width: 15%;
+  transform: scale(1.2);
+}
+.icon-belgium {
+	width: 22px;
+	position: absolute;
+	bottom: 478px;
+	left: 717px;
+}
 .icon-belgium:hover {
-	content: url("https://i.ibb.co/7yxxsLz/Screenshot-2019-12-29-at-20-48-28.png");
-	width: 15%;
+	content: url("https://i.ibb.co/r22G5Kq/Screenshot-2019-12-29-at-20-48-28.jpg");
+  width: 15%;
+  transform: scale(1.2);
 }
 .icon-denmark {
-	width: 12px;
+	width: 22px;
 	position: absolute;
-	bottom: 376px;
+	bottom: 485px;
 	left: 724px;
 }
 .icon-denmark:hover {
-	content: url("https://i.ibb.co/8jpCJ3x/Screenshot-2019-12-29-at-20-49-22.png");
-	width: 15%;
+	content: url("https://i.ibb.co/VgkZ3xx/Screenshot-2019-12-29-at-20-49-22.jpg");
+  width: 15%;
+  transform: scale(1.2);
 }
 .icon-finland {
-	width: 12px;
+	width: 22px;
 	position: absolute;
-	bottom: 405px;
-	left: 758px;
+	bottom: 535px;
+	left: 780px;
 }
 .icon-finland:hover {
-	content: url("https://i.ibb.co/P5CDwHT/Screenshot-2019-12-29-at-20-47-38.png");
-	width: 15%;
+	content: url("https://i.ibb.co/qRJXY2n/Screenshot-2019-12-29-at-20-47-38.jpg");
+  width: 15%;
+  transform: scale(1.2);
 }
 .icon-hungary {
-	width: 12px;
+	width: 22px;
 	position: absolute;
-	bottom: 347px;
-	left: 730px;
+	bottom: 460px;
+	left: 770px;
 }
 .icon-hungary:hover {
-	content: url("https://i.ibb.co/jGRQDKk/Screenshot-2019-12-29-at-20-46-45.png");
-	width: 15%;
+	content: url("https://i.ibb.co/nwKdhXX/Screenshot-2019-12-29-at-20-46-45.jpg");
+  width: 15%;
+  transform: scale(1.2);
 }
 .icon-czech-republic {
-	width: 12px;
+	width: 22px;
 	position: absolute;
-	bottom: 345px;
-	left: 720px;
-}
-.icon-czech-republic:hover {
-	content: url("https://i.ibb.co/yPW61GZ/Screenshot-2019-12-29-at-20-47-16.png");
-	width: 15%;
-}
-.icon-norway {
-	width: 12px;
-	position: absolute;
-	bottom: 412px;
+	bottom: 460px;
 	left: 730px;
 }
+.icon-czech-republic:hover {
+	content: url("https://i.ibb.co/sCDKLxr/Screenshot-2019-12-29-at-20-47-16.jpg");
+  width: 15%;
+  transform: scale(1.2);
+}
+.icon-norway {
+	width: 22px;
+	position: absolute;
+	bottom: 532px;
+	left: 735px;
+}
 .icon-norway:hover {
-	content: url("https://i.ibb.co/CndxHCK/67105219-634554613693139-4703368018120409088-o.jpg");
+	content: url("https://i.ibb.co/WtF9W2N/67105219-634554613693139-4703368018120409088-o.jpg");
 	/* border-radius: 50%; */
-	width: 15%;
+  width: 15%;
+  transform: scale(1.5);
 }
 .icon-thailand {
-	width: 12px;
+	width: 22px;
 	position: absolute;
-	bottom: 322px;
+	bottom: 352px;
 	left: 987px;
 }
 .icon-thailand:hover {
-	content: url("https://i.ibb.co/BGrC3GY/Screenshot-2019-12-29-at-20-48-49.png");
-	width: 15%;
+	content: url("https://i.ibb.co/Jdfq9bb/Screenshot-2019-12-29-at-20-48-49.jpg");
+  width: 15%;
+  transform: scale(1.2);
 }
 .icon-hong-kong {
-	width: 12px;
+	width: 22px;
 	position: absolute;
-	bottom: 335px;
-	left: 980px;
+	bottom: 382px;
+	left: 1030px;
 }
 .icon-hong-kong:hover {
-	content: url("https://i.ibb.co/2dkQftQ/Screenshot-2019-12-29-at-20-50-25.png");
-	width: 15%;
+	content: url("https://i.ibb.co/HHmSk0y/Screenshot-2019-12-29-at-20-50-25.jpg");
+  width: 15%;
+  transform: scale(1.2);
 }
 .icon-korea {
-	width: 12px;
+	width: 22px;
 	position: absolute;
-	bottom: 325px;
-	left: 992px;
+	bottom: 425px;
+	left: 1065px;
 }
 .icon-korea:hover {
-	content: url("https://i.ibb.co/PWHX9nt/Screenshot-2019-12-29-at-20-48-04.png");
-	width: 15%;
+	content: url("https://i.ibb.co/GnqwHgn/Screenshot-2019-12-29-at-20-48-04.jpg");
+  width: 15%;
+  transform: scale(1.2);
 }
 /* .transition-effect {
       animation-name: fade;
