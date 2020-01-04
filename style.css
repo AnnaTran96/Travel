@@ -1,9 +1,14 @@
+body {
+	font-family: shadows into light two;
+	/* overflow-x: hidden; */
+}
 .container {
-	width: 100%;
 	margin: 0;
 	background-color: white;
+	/* overflow-x: hidden; */
 }
 .navigation-bar {
+	width: 100%;
 	background-color: rgba(62, 65, 64, 0.377);
 	margin: 0;
 }
@@ -13,9 +18,6 @@
 }
 .navigation-bar li {
 	display: inline;
-	padding-right: 55px;
-	word-spacing: 3px;
-	font: 25px Shadows into light two;
 	color: white;
 }
 a {
@@ -25,37 +27,33 @@ a {
 }
 hr {
 	height: 5px;
-	width: 150px;
 	margin: 0;
-	margin-left: 825px;
 	background: rgb(255, 255, 255);
 	border: none;
 	transition: .2s ease-in-out;
 }
 a:hover {
-	/*color: #a3a3c2;*/
 	font-weight: bold;
-}
-.countries:hover~hr {
-	margin-left: 1050px;
-}
-.bucketlist:hover~hr {
-	margin-left: 1270px;
 }
 .video-background {
 	position: relative;
-	width: 100%;
-	height: 94.8vh;
+	/* width: 400%;
+	height: 100vh; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	overflow: hidden;
+	width: 100%;
 }
 .video-container {
 	position: absolute;
 	top: 0;
 	left: 0;
+	overflow: hidden;
 	width: 100%;
+}
+video {
+	height: 100%;
 }
 .colour-overlay {
 	position: absolute;
@@ -64,10 +62,9 @@ a:hover {
 	background-color: white;
 	opacity: 0.3;
 	width: 100%;
-	height: 94.8vh;
+	/* height: 100%; */
 }
 .video-background h1 {
-	font-size: 4.5rem;
 	font-family: Shadows into light two;
 	font-weight: bold;
 	color: white;
@@ -105,272 +102,108 @@ a:hover {
 		border-right-color: transparent;
 	}
 }
-
-/* @media screen and (min-width: 320px) {
-  .container {
-    width: 100%;
-  }
-  hr {
-    margin-left: 5px;
-  }
-  .video-background h1 {
-    margin-top: -1300px;
-  }
-  .video-background {
-    height: 1000px;
-  }
-}
-
-@media screen and (max-width: 1440px) {
-  .container {
-    width: 100%;
-  }
-  hr {
-    margin-left: 825px;
-  }
-  .video-background h1 {
-    margin-top: 0;
-  }
-  .video-background {
-    height: 94.8vh;
-  }
-} */
-
-h2 {
-	position: absolute;
-	bottom: 530px;
-	right: 430px;
-	text-align: center;
-	font: 34px shadows into light two;
-	color: #666666;
-	text-transform: uppercase;
-	background-color: white;
-}
-p {
-	margin-left: 35px;
-	width: 55%;
-	text-align: center;
-	padding: 70px;
-	font: 19px shadows into light two;
-	color: #666666;
-	border: 2px solid #cccccc;
-	background-color: white;
-}
-
 .hidden {
-  opacity: 0;
-  margin-left: 800px;
-  position: absolute;
-  bottom: -200px;
+	opacity: 0;
+	position: absolute;
 }
-
 .purpleText {
 	color: #6600cc;
 }
 .section-container {
-	position: relative;
-	padding: 30px;
-	overflow: hidden;
-	margin-bottom: 200px;
+    position: relative;
+    overflow-x: hidden;
 }
 section img {
 	width: 100%;
 }
 .column-img {
-	width: 22%;
-	margin-left: 250px;
 	margin-top: 200px;
 	border: 3px solid #bfbfbf;
 	padding: 6px;
 	position: relative;
 	background: white;
 }
-.column-text {
-	width: 78%;
-	margin-left: 480px;
-	margin-top: -300px;
+h2 {
+	position: absolute;
+	text-align: center;
+	color: #666666;
+	text-transform: uppercase;
+	background-color: white;
+}
+p {
+	text-align: center;
+	color: #666666;
+	border: 2px solid #cccccc;
+	background-color: white;
+	line-height: 35px;
+}
+.destination-container {
+    margin: 0;
+    overflow-x: hidden;
 }
 h3 {
-	font: 44px shadows into light two;
 	text-align: center;
 	color: #737373;
 	text-transform: uppercase;
 	background-color: rgba(179, 179, 179, 0.4);
 	padding-top: 30px;
 	padding-bottom: 30px;
+	width: 100%;
+}
+.images-container {
+	padding: 20%;
 }
 .images-left {
 	position: absolute;
 	opacity: 0.1;
 	filter: blur(1px);
-	width: 200px;
+	width: 22%;
+	margin-left: -19%;
+	margin-top: -23%;
+}
+.images-left img {
+	width: 100%;
+	margin-top: 5%;
 }
 .middle-left {
 	position: absolute;
 	opacity: 0.1;
 	filter: blur(1px);
-	width: 200px;
+	width: 22%;
+	margin-top: -23%;
+	margin-left: 4.5%;
+}
+.middle-left img {
+	width: 100%;
+	margin-top: 5%;
 }
 .images-right {
 	position: absolute;
 	opacity: 0.1;
 	filter: blur(1px);
-	width: 200px;
+	width: 22%;
+	margin-left: 57%;
+	margin-top: -23%;
 }
-.edge-right {
-	position: absolute;
-	opacity: 0.1;
-	filter: blur(1px);
-	width: 200px;
+.images-right img {
+	width: 100%;
+	margin-top: 5%;
 }
 .middle-image {
 	position: absolute;
 	opacity: 0.1;
 	filter: blur(1px);
-	width: 580px;
+	width: 28%;
+	margin-left: 28%;
+	margin-top: -23%;
 }
-.paris {
-	margin-top: -21px;
-	margin-left: 10px;
+.middle-image img {
+	width: 100%;
+	margin-top: 5%;
 }
-.changmai {
-	margin-top: -800px;
-	margin-left: 220px;
-}
-.seoul {
-	margin-top: -10px;
-	margin-left: 10px;
-}
-.sun {
-	margin-top: -10px;
-	margin-left: 10px;
-}
-.london {
-	margin-top: -10px;
-	margin-left: 10px;
-}
-.flowers {
-	margin-top: 5px;
-	margin-left: 10px;
-}
-.churros {
-	margin-top: -5px;
-	margin-left: 10px;
-	object-fit: cover;
-	object-position: 20% 10px;
-	width: 200px;
-	height: 147px;
-}
-.belfast {
-	margin-top: -280px;
-	margin-left: 220px;
-}
-.oxford {
-	margin-top: -255px;
-	margin-left: 220px;
-}
-.church {
-	margin-top: 822px;
-	margin-left: 220px;
-}
-.horse {
-	margin-top: 5px;
-	margin-left: 220px;
-}
-.tree-fr {
-	margin-top: -5px;
-	margin-left: 220px;
-	object-fit: cover;
-	object-position: 20% 10px;
-	width: 200px;
-	height: 131px;
-}
-.adidas {
-	margin-top: -5px;
-	margin-left: 1020px;
-}
-.grad {
-	margin-top: 5px;
-	margin-left: 1020px;
-}
-.waterfall {
-	margin-top: 5px;
-	margin-left: 1020px;
-}
-.cook {
-	margin-top: 5px;
-	margin-left: 1020px;
-}
-.palace {
-	margin-top: 5px;
-	margin-left: 1020px;
-}
-.fr {
-	margin-top: -5px;
-	margin-left: 1020px;
-	object-fit: cover;
-	object-position: 20% 10px;
-	width: 200px;
-	height: 134px;
-}
-.baguette {
-	margin-top: -16px;
-	margin-left: 1230px;
-}
-.molly {
-	margin-top: 5px;
-	margin-left: 1230px;
-}
-.fcity {
-	margin-top: 5px;
-	margin-left: 1230px;
-}
-.tree {
-	margin-top: 5px;
-	margin-left: 1230px;
-}
-.drink {
-	margin-top: 5px;
-	margin-left: 1230px;
-}
-.spchina {
-	margin-top: -5px;
-	margin-left: 1230px;
-	object-fit: cover;
-	object-position: 20% 10px;
-	width: 200px;
-	height: 145px;
-}
-.summer-palace {
-	margin-top: -16px;
-	margin-left: 430px;
-}
-.wall {
-	margin-top: -160px;
-	margin-left: 430px;
-}
-.wall2 {
-	margin-top: 10px;
-	margin-left: 430px;
-}
-.jelly {
-	margin-top: 5px;
-	margin-left: 430px;
-}
-/* .de {
-	margin-top: -5px;
-	margin-left: 430px;
-	object-fit: cover;
-	object-position: 20% 10px;
-	width: 580px;
-	height: 123px;
-} */
 .slider {
-	max-width: 650px;
-	border: 10px solid white;
 	margin: 60px auto;
 	position: relative;
-	top: 70px;
 	border: 3px solid #c2c2c2;
 	padding: 5px;
 }
@@ -390,8 +223,8 @@ h3 {
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 5px 0px 5px 0px;
 	margin: 0 auto;
-  text-align: center;
-  letter-spacing: 3px;
+	text-align: center;
+	letter-spacing: 3px;
 	bottom: 1px;
 	line-height: 35px;
 }
@@ -401,12 +234,8 @@ h3 {
 .leftButton {
 	position: absolute;
 	font: 40px arial;
-	/* font-weight: bold; */
 	color: white;
-	bottom: 220px;
-	left: 20px;
 	background-color: rgba(0, 0, 0, 0.5);
-	/* border-radius: 50%; */
 	padding: 10px;
 	line-height: 30px;
 	cursor: pointer;
@@ -415,18 +244,12 @@ h3 {
 .rightButton {
 	position: absolute;
 	font: 40px arial;
-	/* font-weight: bold; */
 	color: white;
-	bottom: 220px;
-	right: 20px;
 	background-color: rgba(0, 0, 0, 0.5);
-	/* border-radius: 50%; */
 	padding: 10px;
 	line-height: 30px;
 	cursor: pointer;
 	transition: .0.5s ease-in-out;
-	/* animation-name: fade;
-    animation-duration: 1s; */
 }
 .leftButton:hover {
 	background-color: rgba(15, 235, 180, 0.658);
@@ -437,237 +260,18 @@ h3 {
 	box-shadow: 0px 0px 10px black;
 }
 .center {
-	width: 85%;
-	margin-left: 130px;
-	margin-top: 50px;
-
+	width: 100%;
 }
 .icons {
+	display: none;
 	width: 100%;
 	z-index: 1;
 	position: relative;
 }
-.icon-china {
-	width: 22px;
-	position: absolute;
-	bottom: 405px;
-	left: 1000px;
-	display: block;
-}
-.icon-china:hover {
-	content: url("https://i.ibb.co/yg8L9VP/china.jpg");
-  	width: 200px;
-	transform: scale(1.2);
-	
-}
-.icon-spain {
-	width: 22px;
-	position: absolute;
-	bottom: 435px;
-	left: 700px;
-}
-.icon-spain:hover {
-	content: url("https://i.ibb.co/WBCTdT8/Screenshot-2019-12-29-at-20-50-17.jpg");
-  	width: 15%;
-  	transform: scale(1.2);
-}
-.icon-france {
-	width: 22px;
-	position: absolute;
-	bottom: 448px;
-	left: 715px;
-}
-.icon-france:hover {
-	content: url("https://i.ibb.co/Hg8m0zS/Screenshot-2019-12-31-at-15-41-16.jpg");
-  	width: 15%;
-  	transform: scale(1.2);
-}
-.icon-germany {
-	width: 22px;
-	position: absolute;
-	bottom: 465px;
-	left: 725px;
-}
-.icon-germany:hover {
-	content: url("https://i.ibb.co/mXG8c3j/Screenshot-2019-12-29-at-20-50-02.jpg");
-  	width: 15%;
-  	transform: scale(1.2);
-}
-.icon-poland {
-	width: 22px;
-	position: absolute;
-	bottom: 470px;
-	left: 735px;
-}
-.icon-poland:hover {
-	content: url("https://i.ibb.co/xHVQkSg/75398194-713553479126585-2217559196235202560-o.jpg");
-  width: 15%;
-  transform: scale(1.2);
-}
-.icon-italy {
-	width: 22px;
-	position: absolute;
-	bottom: 443px;
-	left: 755px;
-}
-.icon-italy:hover {
-	content: url("https://i.ibb.co/cYwGzH2/img-6240.jpg");
-  width: 15%;
-  transform: scale(1.2);
-}
-.icon-sweden {
-	width: 22px;
-	position: absolute;
-	bottom: 550px;
-	left: 735px;
-}
-.icon-sweden:hover {
-	content: url("https://i.ibb.co/jJz6Mbn/IMG-9063.jpg"); /*replace photo*/
-  width: 15%;
-  transform: scale(1.2);
-}
-.icon-netherlands {
-	width: 22px;
-	position: absolute;
-	bottom: 470px;
-	left: 710px;
-}
-.icon-netherlands:hover {
-	content: url("https://i.ibb.co/1bdkTmn/Screenshot-2019-12-29-at-20-49-10.jpg");
-  width: 15%;
-  transform: scale(1.2);
-}
-.icon-greece {
-	width: 22px;
-	position: absolute;
-	bottom: 435px;
-	left: 773px;
-}
-.icon-greece:hover {
-	content: url("https://i.ibb.co/M2SBYSB/Screenshot-2019-12-29-at-20-49-33.jpg");
-  width: 15%;
-  transform: scale(1.2);
-}
-.icon-belgium {
-	width: 22px;
-	position: absolute;
-	bottom: 478px;
-	left: 717px;
-}
-.icon-belgium:hover {
-	content: url("https://i.ibb.co/r22G5Kq/Screenshot-2019-12-29-at-20-48-28.jpg");
-  width: 15%;
-  transform: scale(1.2);
-}
-.icon-denmark {
-	width: 22px;
-	position: absolute;
-	bottom: 485px;
-	left: 724px;
-}
-.icon-denmark:hover {
-	content: url("https://i.ibb.co/VgkZ3xx/Screenshot-2019-12-29-at-20-49-22.jpg");
-  width: 15%;
-  transform: scale(1.2);
-}
-.icon-finland {
-	width: 22px;
-	position: absolute;
-	bottom: 535px;
-	left: 780px;
-}
-.icon-finland:hover {
-	content: url("https://i.ibb.co/qRJXY2n/Screenshot-2019-12-29-at-20-47-38.jpg");
-  width: 15%;
-  transform: scale(1.2);
-}
-.icon-hungary {
-	width: 22px;
-	position: absolute;
-	bottom: 460px;
-	left: 770px;
-}
-.icon-hungary:hover {
-	content: url("https://i.ibb.co/nwKdhXX/Screenshot-2019-12-29-at-20-46-45.jpg");
-  width: 15%;
-  transform: scale(1.2);
-}
-.icon-czech-republic {
-	width: 22px;
-	position: absolute;
-	bottom: 460px;
-	left: 730px;
-}
-.icon-czech-republic:hover {
-	content: url("https://i.ibb.co/sCDKLxr/Screenshot-2019-12-29-at-20-47-16.jpg");
-  width: 15%;
-  transform: scale(1.2);
-}
-.icon-norway {
-	width: 22px;
-	position: absolute;
-	bottom: 532px;
-	left: 735px;
-}
-.icon-norway:hover {
-	content: url("https://i.ibb.co/WtF9W2N/67105219-634554613693139-4703368018120409088-o.jpg");
-	/* border-radius: 50%; */
-  width: 15%;
-  transform: scale(1.5);
-}
-.icon-thailand {
-	width: 22px;
-	position: absolute;
-	bottom: 352px;
-	left: 987px;
-}
-.icon-thailand:hover {
-	content: url("https://i.ibb.co/Jdfq9bb/Screenshot-2019-12-29-at-20-48-49.jpg");
-  width: 15%;
-  transform: scale(1.2);
-}
-.icon-hong-kong {
-	width: 22px;
-	position: absolute;
-	bottom: 382px;
-	left: 1030px;
-}
-.icon-hong-kong:hover {
-	content: url("https://i.ibb.co/HHmSk0y/Screenshot-2019-12-29-at-20-50-25.jpg");
-  width: 15%;
-  transform: scale(1.2);
-}
-.icon-korea {
-	width: 22px;
-	position: absolute;
-	bottom: 425px;
-	left: 1065px;
-}
-.icon-korea:hover {
-	content: url("https://i.ibb.co/GnqwHgn/Screenshot-2019-12-29-at-20-48-04.jpg");
-  width: 15%;
-  transform: scale(1.2);
-}
-/* .transition-effect {
-      animation-name: fade;
-      animation-duration: 1s;
-  }
-
-  @keyframes fade {
-      from {
-          opacity: 0.5;
-      }
-      to {
-          opacity: 1;
-      }
-  } */
-
 .bucketlist-container {
-  background-color: white;
-  padding-bottom: 200px;
+	background-color: white;
 }
 h4 {
-	font: 44px shadows into light two;
 	text-align: center;
 	color: #737373;
 	text-transform: uppercase;
@@ -675,113 +279,663 @@ h4 {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	position: relative;
+	width: 100%;
 }
-
-.p2 {
-  margin-left: 250px;
-  margin-top: 150px;
-}
-
 .list {
-  margin-top: -410px;
-  font: 19px shadows into light two;
-  color: #666666;
-  text-align: center;
+	color: #666666;
+	text-align: center;
+	line-height: 35px;
 }
-
 .flags-left, .flags-right, .flags-center {
-  width: 10%;
-  position: absolute;
-  /* opacity: 0.4; */
+	position: absolute;
+	opacity: 0.4;
 }
-
-.flags-right {
-  right: 250px;
+.flags-left .flags-right .flags-center img {
+	width: 100%;
 }
-
-.flags-center {
-  left: 280px;
-}
-
 .australia-flag {
-  margin-left: 190px;
-  margin-top: 210px;
-  transform: rotate(10deg);
+	transform: rotate(10deg);
+	margin-top: 50%;
 }
-
 .austria-flag {
-  margin-left: 40px;
-  transform: rotate(-20deg);
+	transform: rotate(-20deg);
+	margin-top: 50%;
 }
-
 .cambodia-flag {
-  margin-left: 190px;
-  transform: rotate(10deg);
-  margin-top: 20px;
+	margin-top: 50%;
 }
-
 .croatia-flag {
-  margin-left: 40px;
-  transform: rotate(-20deg);
+	transform: rotate(-20deg);
+	margin-top: 50%;
 }
-
 .egypt-flag {
-  margin-left: 190px;
-  transform: rotate(10deg);
+	transform: rotate(10deg);
+	margin-top: 50%;
 }
-
 .fiji-flag {
-  margin-left: 40px;
-  margin-top: 200px;
-  transform: rotate(-20deg);
+	transform: rotate(-20deg);
+	margin-top: 50%;
 }
-
 .japan-flag {
-  margin-left: 190px;
-  transform: rotate(20deg);
+	transform: rotate(20deg);
+	margin-top: 50%;
 }
-
 .malta-flag {
-  margin-left: 40px;
-  transform: rotate(-20deg);
+	transform: rotate(-20deg);
+	margin-top: 50%;
 }
-
 .morocco-flag {
-  margin-left: 190px;
-  transform: rotate(20deg);
+	transform: rotate(20deg);
+	margin-top: 50%;
 }
-
 .nz-flag {
-  margin-left: 40px;
-  transform: rotate(-20deg);
-  margin-top: 20px;
+	transform: rotate(-20deg);
+	margin-top: 50%;
 }
-
 .portugal-flag {
-  margin-left: 190px;
-  margin-top: 180px;
-  transform: rotate(-10deg);
+	transform: rotate(-10deg);
+	margin-top: 50%;
 }
-
 .switzerland-flag {
-  margin-left: 490px;
-  margin-top: -135px;
-  transform: rotate(10deg);
+	transform: rotate(-10deg);
+	margin-top: -100%;
+	margin-left: 160%;
 }
-
-.stars {
-  margin-left: 280px;
-  margin-top: 480px;
-  transform: rotate(15deg) scale(2);
-  opacity: 0.1;
-  width: 300px;
-}
-
 .final {
-  font: 60px shadows into light two;
-  color: #666666;
-  text-transform: uppercase;
-  position: absolute;
-  left: 440px;
-  margin-top: -60px;
+	color: #666666;
+	text-transform: uppercase;
+	position: relative;
+}
+@media screen and (max-width: 768px) {
+	.navigation-bar li {
+		padding: 10px;
+		font: 14px Shadows into light two;
+	}
+	.video-background h1 {
+		font-size: 30px;
+	}
+	.video-background {
+		height: 100vh;
+	}
+	.colour-overlay {
+		height: 100vh;
+	}
+	hr {
+		width: 70px;
+		margin-left: 125px;
+	}
+	.countries:hover~hr {
+		margin-left: 230px;
+	}
+	.section-container {
+		margin-bottom: 200px;
+	}
+	.column {
+		margin-left: 30%;
+	}
+	.column-img {
+		width: 180px;
+		margin-left: -130px;
+	}
+	.column-text {
+		margin-left: 520px;
+		margin-top: -180px;
+	}
+	.hidden {
+		bottom: -100px;
+		margin-left: 10px;
+	}
+	.p1 {
+		width: 180px;
+		font: 12px shadows into light two;
+		padding: 50px;
+		margin-left: -480px;
+		border: 2px solid #cccccc;
+	}
+	h2 {
+		margin-top: -200px;
+		margin-left: 90px;
+		width: 200px;
+		font: 24px shadows into light two;
+	}
+	h3 {
+		font: 30px shadows into light two;
+	}
+	.destination-container {
+		padding-bottom: 10%;
+	}
+	.slider {
+		width: 60%;
+		margin-top: -30%;
+	}
+	.leftButton {
+		bottom: 40%;
+		left: 5%;
+	}
+	.rightButton {
+		bottom: 40%;
+		left: 85%;
+	}
+	.center {
+		width: 110%;
+		margin-left: -5%;
+	}
+	.center img {
+		width: 100%;
+	}
+	.bucketlist-container {
+		padding-bottom: 150px;
+	}
+	h4 {
+		font: 30px shadows into light two;
+	}
+	.flags-left {
+		width: 12%;
+		margin-left: 20%;
+		margin-top: 10%;
+	}
+	.flags-right {
+		width: 12%;
+		left: 72%;
+		margin-top: 10%;
+	}
+	.flags-center {
+		width: 12%;
+		left: 36%;
+		margin-top: 5%;
+	}
+	.p2 {
+		margin-left: 30%;
+		padding: 50px;
+		padding-bottom: 100px;
+		font: 12px shadows into light two;
+		width: 30%;
+		margin-top: 20%;
+	}
+	.list {
+		font: 12px shadows into light two;
+		margin-top: -280px;
+		margin-left: 20px;
+	}
+	.final {
+		font-size: 30px;
+		margin-left: 25%;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	.navigation-bar li {
+		padding: 15px;
+		font-size: 20px;
+	}
+	.video-background h1 {
+		font-size: 50px;
+	}
+	.video-background {
+		height: 100vh;
+	}
+	.colour-overlay {
+		height: 100vh;
+	}
+	hr {
+		width: 70px;
+		margin-left: 125px;
+	}
+	.countries:hover~hr {
+		margin-left: 230px;
+	}
+	.section-container {
+		margin-bottom: 200px;
+	}
+	.column {
+		margin-left: 30%;
+	}
+	.column-img {
+		width: 250px;
+		margin-left: -200px;
+	}
+	.column-text {
+		margin-left: 520px;
+		margin-top: -180px;
+	}
+	.hidden {
+		bottom: -100px;
+		margin-left: 10px;
+	}
+	.p1 {
+		width: 380px;
+		font-size: 22px;
+		padding: 50px;
+		margin-left: -480px;
+		border: 2px solid #cccccc;
+	}
+	h2 {
+		margin-top: -210px;
+		margin-left: 190px;
+		width: 200px;
+		font-size: 34px;
+	}
+	h3 {
+		font-size: 38px;
+	}
+	.destination-container {
+        padding-bottom: 10%;
+        
+	}
+	.slider {
+		width: 60%;
+		margin-top: -30%;
+	}
+	.leftButton {
+		bottom: 40%;
+		left: 5%;
+	}
+	.rightButton {
+		bottom: 40%;
+		left: 85%;
+	}
+	.center {
+		width: 110%;
+		margin-left: -5%;
+	}
+	.center img {
+		width: 100%;
+	}
+	.bucketlist-container {
+		padding-bottom: 150px;
+	}
+	h4 {
+		font-size: 38px;
+		margin-top: 3%;
+	}
+	.flags-left {
+		width: 14%;
+		margin-left: 10%;
+		margin-top: 20%;
+	}
+	.flags-right {
+		width: 14%;
+		left: 80%;
+		margin-top: 20%;
+	}
+	.flags-center {
+		width: 14%;
+		left: 36%;
+	}
+	.p2 {
+		margin-left: 20%;
+		padding: 50px;
+		padding-bottom: 100px;
+		font-size: 22px;
+		width: 50%;
+		margin-top: 20%;
+		overflow-y: hidden;
+	}
+	.list {
+		font-size: 22px;
+		margin-top: -520px;
+		overflow-y: hidden;
+	}
+	.egypt-flag {
+		display: none;
+	}
+	.nz-flag {
+		display: none;
+	}
+	.final {
+		font-size: 40px;
+		left: 30%;
+	}
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+	.navigation-bar li {
+		padding: 25px;
+		font-size: 26px;
+	}
+	.video-background h1 {
+		font-size: 80px;
+	}
+	.video-background {
+		height: 100vh;
+	}
+	.colour-overlay {
+		height: 100vh;
+	}
+	hr {
+		width: 130px;
+		margin-left: 865px;
+	}
+	.countries:hover~hr {
+		margin-left: 1095px;
+	}
+	.bucketlist:hover~hr {
+		margin-left: 1300px;
+	}
+	.section-container {
+		margin-bottom: 200px;
+	}
+	.column {
+		margin-left: 30%;
+	}
+	.column-img {
+		width: 280px;
+		margin-left: -200px;
+	}
+	.column-text {
+		margin-left: 490px;
+		margin-top: -280px;
+		padding-right: 100px;
+	}
+	.hidden {
+		bottom: -250px;
+		margin-left: 800px;
+	}
+	.p1 {
+		font-size: 26px;
+		padding: 80px;
+		margin-left: -440px;
+	}
+	h2 {
+		margin-top: -300px;
+		margin-left: 300px;
+		width: 250px;
+		font-size: 44px;
+	}
+	h3 {
+		font-size: 46px;
+		margin-bottom: 10px;
+	}
+	.destination-container {
+		padding-bottom: 10%;
+	}
+	.sun {
+		display: none;
+	}
+	.palace {
+		display: none;
+	}
+	.flowers {
+		display: none;
+	}
+	.gwoc {
+		display: none;
+	}
+	.de {
+		object-fit: cover;
+		object-position: 20% 10px;
+		height: 175px;
+	}
+	.slider {
+		width: 40%;
+		margin-top: -30%;
+	}
+	.leftButton {
+		bottom: 40%;
+		left: 5%;
+	}
+	.rightButton {
+		bottom: 40%;
+		left: 87%;
+	}
+	.center {
+		width: 90%;
+		margin-left: 5%;
+	}
+	.center img {
+		width: 100%;
+	}
+	.icons {
+		display: block;
+		width: 100%;
+	}
+	.icon-china {
+		width: 25px;
+		position: absolute;
+		bottom: 425px;
+		left: 70%;
+		display: block;
+	}
+	.icon-china:hover {
+		content: url("https://i.ibb.co/yg8L9VP/china.jpg");
+		width: 200px;
+		transform: scale(1.2);
+	}
+	.icon-spain {
+		width: 25px;
+		position: absolute;
+		bottom: 462px;
+		left: 46.8%;
+	}
+	.icon-spain:hover {
+		content: url("https://i.ibb.co/WBCTdT8/Screenshot-2019-12-29-at-20-50-17.jpg");
+		width: 15%;
+		transform: scale(1.2);
+	}
+	.icon-france {
+		width: 25px;
+		position: absolute;
+		bottom: 482px;
+		left: 48%;
+	}
+	.icon-france:hover {
+		content: url("https://i.ibb.co/Hg8m0zS/Screenshot-2019-12-31-at-15-41-16.jpg");
+		width: 15%;
+		transform: scale(1.2);
+	}
+	.icon-germany {
+		width: 25px;
+		position: absolute;
+		bottom: 510px;
+		left: 50%;
+	}
+	.icon-germany:hover {
+		content: url("https://i.ibb.co/mXG8c3j/Screenshot-2019-12-29-at-20-50-02.jpg");
+		width: 15%;
+		transform: scale(1.2);
+	}
+	.icon-poland {
+		width: 25px;
+		position: absolute;
+		bottom: 520px;
+		left: 52%;
+	}
+	.icon-poland:hover {
+		content: url("https://i.ibb.co/xHVQkSg/75398194-713553479126585-2217559196235202560-o.jpg");
+		width: 15%;
+		transform: scale(1.2);
+	}
+	.icon-italy {
+		width: 25px;
+		position: absolute;
+		bottom: 475px;
+		left: 50.5%;
+	}
+	.icon-italy:hover {
+		content: url("https://i.ibb.co/cYwGzH2/img-6240.jpg");
+		width: 15%;
+		transform: scale(1.2);
+	}
+	.icon-sweden {
+		width: 25px;
+		position: absolute;
+		bottom: 580px;
+		left: 51.8%;
+	}
+	.icon-sweden:hover {
+		content: url("https://i.ibb.co/jJz6Mbn/IMG-9063.jpg");
+		width: 15%;
+		transform: scale(1.2);
+	}
+	.icon-netherlands {
+		width: 25px;
+		position: absolute;
+		bottom: 510px;
+		left: 48.5%;
+	}
+	.icon-netherlands:hover {
+		content: url("https://i.ibb.co/1bdkTmn/Screenshot-2019-12-29-at-20-49-10.jpg");
+		width: 15%;
+		transform: scale(1.2);
+	}
+	.icon-greece {
+		width: 25px;
+		position: absolute;
+		bottom: 465px;
+		left: 52.3%;
+	}
+	.icon-greece:hover {
+		content: url("https://i.ibb.co/M2SBYSB/Screenshot-2019-12-29-at-20-49-33.jpg");
+		width: 15%;
+		transform: scale(1.2);
+	}
+	.icon-belgium {
+		width: 25px;
+		position: absolute;
+		bottom: 495px;
+		left: 48.5%;
+	}
+	.icon-belgium:hover {
+		content: url("https://i.ibb.co/r22G5Kq/Screenshot-2019-12-29-at-20-48-28.jpg");
+		width: 15%;
+		transform: scale(1.2);
+	}
+	.icon-denmark {
+		width: 25px;
+		position: absolute;
+		bottom: 535px;
+		left: 49.7%;
+	}
+	.icon-denmark:hover {
+		content: url("https://i.ibb.co/VgkZ3xx/Screenshot-2019-12-29-at-20-49-22.jpg");
+		width: 15%;
+		transform: scale(1.2);
+	}
+	.icon-finland {
+		width: 25px;
+		position: absolute;
+		bottom: 570px;
+		left: 53%;
+	}
+	.icon-finland:hover {
+		content: url("https://i.ibb.co/qRJXY2n/Screenshot-2019-12-29-at-20-47-38.jpg");
+		width: 15%;
+		transform: scale(1.2);
+	}
+	.icon-hungary {
+		width: 25px;
+		position: absolute;
+		bottom: 495px;
+		left: 52%;
+	}
+	.icon-hungary:hover {
+		content: url("https://i.ibb.co/nwKdhXX/Screenshot-2019-12-29-at-20-46-45.jpg");
+		width: 15%;
+		transform: scale(1.2);
+	}
+	.icon-czech-republic {
+		width: 25px;
+		position: absolute;
+		bottom: 504px;
+		left: 51%;
+	}
+	.icon-czech-republic:hover {
+		content: url("https://i.ibb.co/sCDKLxr/Screenshot-2019-12-29-at-20-47-16.jpg");
+		width: 15%;
+		transform: scale(1.2);
+	}
+	.icon-norway {
+		width: 25px;
+		position: absolute;
+		bottom: 560px;
+		left: 49.3%;
+	}
+	.icon-norway:hover {
+		content: url("https://i.ibb.co/WtF9W2N/67105219-634554613693139-4703368018120409088-o.jpg");
+		width: 15%;
+		transform: scale(1.5);
+	}
+	.icon-thailand {
+		width: 25px;
+		position: absolute;
+		bottom: 370px;
+		left: 68%;
+	}
+	.icon-thailand:hover {
+		content: url("https://i.ibb.co/Jdfq9bb/Screenshot-2019-12-29-at-20-48-49.jpg");
+		width: 15%;
+		transform: scale(1.2);
+	}
+	.icon-hong-kong {
+		width: 25px;
+		position: absolute;
+		bottom: 405px;
+		left: 71%;
+	}
+	.icon-hong-kong:hover {
+		content: url("https://i.ibb.co/HHmSk0y/Screenshot-2019-12-29-at-20-50-25.jpg");
+		width: 15%;
+		transform: scale(1.2);
+	}
+	.icon-korea {
+		width: 25px;
+		position: absolute;
+		bottom: 450px;
+		left: 73.7%;
+	}
+	.icon-korea:hover {
+		content: url("https://i.ibb.co/GnqwHgn/Screenshot-2019-12-29-at-20-48-04.jpg");
+		width: 15%;
+		transform: scale(1.2);
+	}
+	.bucketlist-container {
+		padding-bottom: 150px;
+	}
+	h4 {
+		font-size: 46px;
+		margin-top: 3%;
+	}
+	.flags-left {
+		width: 10%;
+		margin-left: 12%;
+		margin-top: 5%;
+	}
+	.flags-right {
+		width: 10%;
+		left: 80%;
+		margin-top: 5%;
+	}
+	.flags-center {
+		width: 10%;
+		left: 36%;
+		margin-top: -4%;
+	}
+	.switzerland-flag {
+		transform: none;
+		margin-left: 300px;
+	}
+	.portugal-flag {
+		transform: none;
+	}
+	.p2 {
+		margin-left: 20%;
+		padding: 45px;
+		padding-bottom: 10px;
+		font-size: 26px;
+		width: 800px;
+		line-height: 40px;
+		margin-top: 10%;
+	}
+	.list {
+		font-size: 26px;
+		margin-top: -500px;
+	}
+	.egypt-flag {
+		display: none;
+	}
+	.nz-flag {
+		display: none;
+	}
+	.final {
+		font-size: 50px;
+		margin-left: 500px;
+	}
 }
